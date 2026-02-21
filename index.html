@@ -3,218 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Las Mariposas Monarcas</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <style>
-        
-        body {
-            background-color: #fdf5e6; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        h1 {
-            color: #e67e22;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-            font-weight: bold;
-            margin-top: 20px;
-        }
-
-        .btn-outline-primary:hover {
-            background-color: #e67e22;
-            border-color: #e67e22;
-        }
-
-        .card {
-            border: none;
-            border-radius: 15px;
-            transition: transform 0.3s ease; 
-        }
-
-        .card:hover {
-            transform: translateY(-10px); 
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important;
-        }
-
-        .card-img-top {
-            height: 250px;
-            object-fit: cover;
-            border-radius: 15px 15px 0 0;
-        }
-
-        
-        .carousel-item img {
-            height: 500px;
-            object-fit: cover;
-            border-radius: 20px;
-        }
-
-        .carousel-caption {
-            background: rgba(0, 0, 0, 0.6);
-            border-radius: 15px;
-            padding: 15px;
-        }
-
-        
-        hr {
-            border: 0;
-            height: 2px;
-            background-image: linear-gradient(to right, transparent, #e67e22, transparent);
-            margin: 40px 0;
-        }
-
-        .offcanvas-header {
-            background-color: #e67e22 !important;
-        }
-
-        #liveToastBtn {
-            border-radius: 50px;
-            padding: 10px 25px;
-            transition: all 0.3s;
-        }
-
-        #liveToastBtn:hover {
-            letter-spacing: 1px;
-            background-color: #e67e22;
-        }
-    </style>
+    <title>Clase 10 - Nombres y elementos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header>
+        
+        <h1>¿Qué son las ciencias naturales?</h1>
 
-<div class="container mt-5">
-    
-    <div class="d-flex justify-content-center mb-4">
-        <div class="btn-group shadow-sm" role="group">
-            <button type="button" class="btn btn-outline-primary">Izquierda</button>
-            <button type="button" class="btn btn-outline-primary">Centro</button>
-            <button type="button" class="btn btn-outline-primary">Derecha</button>
-        </div>
-    </div>
+<p>Las ciencias naturales son aquellas disciplinas de estudioque se interesan por comprender las leyes que rigen la naturaleza,
+    y que lo hacen conforme al método científico y al método experimental.</p>
 
-    <h1 class="text-center mb-4">Mundo de las Mariposas</h1>
-    <p class="lead text-center text-muted">Explora la vida de uno de los insectos más asombrosos del planeta.</p>
+    <H2>Objeto de estudio de las ciencias naturales</H2>
 
-    <hr>
+  <p>las ciencias naturales centran su interés en la naturaleza, es decir, en las leyes que rigen el mundo
+ y los fenómenos que en él son observables. En líneas generales se ocupa de los fenómenos que ocurren independientemente de que el ser humano esté o no allí para observarlo o tomar parte en él, 
+ vale decir, del mundo a nuestro alrededor, ya sea a dimensiones macroscópicas o microscópicas.</p>
 
-    <div class="row">
-        <div class="col-md-4 mb-4">
-            <h3 class="mb-3 text-secondary">Tarjeta Informativa</h3>
-            <div class="card w-100 shadow">
-                <img src="mariposa-monarca.jpg" class="card-img-top" alt="Mariposa Monarca">
-                <div class="card-body text-center"> 
-                    <h5 class="card-title fw-bold">Mariposa Monarca</h5>
-                    <p class="card-text text-muted">Es una especie migratoria que viaja miles de kilómetros cada año desde Canadá hasta México.</p>
-                    <a href="#" class="btn btn-success px-4">Leer más</a>
-                </div>
-            </div>
-        </div>
+ 
+</header>
+ <footer>
 
-        <div class="col-md-8">
-            <h3 class="mb-3 text-secondary">Información Detallada</h3>
-            <div class="d-grid gap-2 d-md-block">
-                <button class="btn btn-info text-white shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample">
-                    🦋 ¿Sabías qué? (Migración)
-                </button>
+    <p>Las ciencias naturales responden a la necesidad del ser humano de comprender el mundo que lo rodea (incluso el que está dentro suyo),
+    para poder luego adaptarse a él o adaptarlo a la medida de sus necesidades</p>
 
-                <button class="btn btn-warning text-dark shadow-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCaracterísticas">
-                    🔍 Ver Características Físicas
-                </button>
-            </div>
+   <p>Sin el desarrollo de estas ciencias, la historia humana habría sido mucho más trabajosa, ya que la tecnología, ese gran factor transformador, 
+   se alimenta directamente de la aplicación de los principios, teorías y fundamentos que las ciencias naturales descubren, desarrollan y postulan</p>
 
-            <div class="collapse mt-3" id="collapseExample">
-                <div class="card card-body bg-white border-start border-info border-4 shadow-sm">
-                    Son famosas por su impresionante migración de hasta 5,000 km desde Canadá y EE.UU. hasta México, donde invernan. La generación "Matusalén" vive hasta 8 meses para completar este viaje, a diferencia de las 4-5 semanas de otras generaciones. Son venenosas por comer algodoncillo y se guían con sus antenas como GPS.
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasCaracterísticas">
-        <div class="offcanvas-header text-white">
-            <h5 class="offcanvas-title">CARACTERÍSTICAS</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
-        </div>
-        <div class="offcanvas-body">
-            <p><strong>Apariencia física:</strong> Alas naranjas con venas negras, borde negro con manchas blancas dobles. La parte inferior es más pálida para camuflarse.</p>
-            <hr>
-            <p><strong>Dimorfismo sexual:</strong> Los machos son ligeramente más grandes, tienen venas más delgadas y una mancha negra (androconia) en cada ala trasera. Las hembras tienen venas más gruesas.</p>
-            <hr>
-            <p><strong>Vuelo lento:</strong> Vuelan lentamente, a unos 9 km/h, y baten sus alas entre 5 y 12 veces por segundo.</p>
-        </div>
-    </div>
-
-    <hr>
-
-    <h3 class="mb-3 text-secondary">Galería Visual</h3>
-    <div id="carouselExampleCaptions" class="carousel slide shadow-lg" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="Ciclo-vida.jpg" class="d-block w-100" alt="Ciclo de Vida">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Ciclo de Vida</h5>
-                    <p>Desde el huevo hasta la mariposa adulta.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="Habitat.jpg" class="d-block w-100" alt="Hábitat">
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>Hábitat Natural</h5>
-                    <p>Espacios vitales para su alimentación y reproducción.</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-    </div>
-
-    <hr>
-
-    <div class="text-center mb-5">
-        <h3 class="mb-3 text-secondary">Notificaciones</h3>
-        <button type="button" class="btn btn-dark" id="liveToastBtn">Mostrar Notificación</button>
-    </div>
-
-    <div class="toast-container position-fixed bottom-0 end-0 p-3">
-        <div id="liveToast" class="toast shadow-lg" role="alert">
-            <div class="toast-header bg-warning text-dark">
-                <strong class="me-auto">🦋 Info Mariposa</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
-            </div>
-            <div class="toast-body">
-                Anatomía curiosa: Tienen seis patas, pero solo usan cuatro para caminar; las dos delanteras son vestigiales (no funcionales).
-            </div>
-        </div>
-    </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<script>
-    const toastTrigger = document.getElementById('liveToastBtn')
-    const toastLiveExample = document.getElementById('liveToast')
-    
-    const showToast = () => {
-        const toast = new bootstrap.Toast(toastLiveExample)
-        toast.show()
-    }
-
-    if (toastTrigger) {
-      toastTrigger.addEventListener('click', showToast)
-    }
-
-    
-    window.onload = () => {
-        setTimeout(showToast, 2000);
-    }
-</script>
-
+</footer>
 </body>
 </html>
+Clase 10_html.html
